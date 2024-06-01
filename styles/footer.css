@@ -1,0 +1,13 @@
+:root {
+    --footer-background: #333;
+
+    --footer-color: #ffffff;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--footer-background);
+    color: var(--footer-color);
+    justify-content: center;
+}

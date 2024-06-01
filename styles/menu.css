@@ -1,0 +1,97 @@
+:root {
+    --menu-background: #333;
+    --menu-background-hover: #555;
+    --menu-background-dropdown: #444;
+    --menu-background-dropdown-hover: #666;
+    --menu-background-active: #ff5555;
+    --menu-background-active-hover: #ff7777;
+    --menu-background-dropdown-active: #ff5555;
+    --menu-background-dropdown-active-hover: #ff7777;
+
+    --heading-color: #fff;
+    --menu-color: #fff;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--menu-background);
+}
+
+@font-face {
+    font-family: stargate;
+    src: url(../fonts/stargate.ttf);
+}
+
+.navbar h1 {
+    color: var(--heading-color);
+    font-size: 4rem;
+    font-family: stargate;
+}
+
+.navbar svg {
+    fill: var(--heading-color);
+}
+
+.navbar nav {
+    position: relative;
+    z-index: 999;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--menu-background);
+}
+
+.navbar nav li {
+    display: inline-block;
+}
+
+.navbar nav li:hover {
+    background-color: var(--menu-background-hover);
+}
+
+.navbar nav li a {
+    color: var(--menu-color);
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navbar nav li.active {
+    background-color: var(--menu-background-active);
+}
+
+.navbar nav li.active:hover {
+    background-color: var(--menu-background-active-hover);
+}
+
+.navbar nav ul ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+    background-color: var(--menu-background-dropdown);
+}
+
+.navbar nav ul ul li {
+    display: block;
+}
+
+.navbar nav li:hover ul {
+    display: block;
+}
+
+.navbar nav ul ul li:hover {
+    background-color: var(--menu-background-dropdown-hover);
+}
+
+.navbar nav ul ul li.active {
+    background-color: var(--menu-background-dropdown-active);
+}
+
+.navbar nav ul ul li.active:hover {
+    background-color: var(--menu-background-dropdown-active-hover);
+}
