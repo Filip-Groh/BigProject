@@ -84,6 +84,15 @@
     background-color: var(--menu-background-dropdown-active-hover);
 }
 
+.navbar a {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a::before {
+    content: '';
+}
+
 @media only screen and (max-width: 1400px) {
     .navbar h1 {
         font-size: 2rem;
