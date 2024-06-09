@@ -8,8 +8,11 @@
     --menu-background-active-hover: #ff7777;
     --menu-background-dropdown-active: #ff5555;
     --menu-background-dropdown-active-hover: #ff7777;
+    --footer-background: #333;
 
     --heading-color: #fff;
     --menu-color: #fff;
     --text-color: #fff;
+    --footer-color: #fff;
+    --link-color: rgb(0, 255, 255);
 }

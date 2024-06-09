@@ -1,3 +1,5 @@
+@import url("colors.css");
+
 article {
     width: 80%;
 }
@@ -24,4 +26,8 @@ article h3 {
 
 article section {
     margin-top: 1.5rem;
+}
+
+article a {
+    color: var(--link-color);
 }
