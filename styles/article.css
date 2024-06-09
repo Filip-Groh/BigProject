@@ -28,6 +28,10 @@ article section {
     margin-top: 1.5rem;
 }
 
+article p {
+    margin-top: 1rem;
+}
+
 article a {
     color: var(--link-color);
 }
