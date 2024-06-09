@@ -35,3 +35,9 @@ article p {
 article a {
     color: var(--link-color);
 }
+
+article header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
