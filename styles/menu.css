@@ -1,16 +1,4 @@
-:root {
-    --menu-background: #333;
-    --menu-background-hover: #555;
-    --menu-background-dropdown: #444;
-    --menu-background-dropdown-hover: #666;
-    --menu-background-active: #ff5555;
-    --menu-background-active-hover: #ff7777;
-    --menu-background-dropdown-active: #ff5555;
-    --menu-background-dropdown-active-hover: #ff7777;
-
-    --heading-color: #fff;
-    --menu-color: #fff;
-}
+@import url("colors.css");
 
 .navbar {
     display: flex;
